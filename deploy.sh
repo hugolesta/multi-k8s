@@ -15,3 +15,4 @@ kubectl set image deployments/server-deployment server=laxtour/multi-server:$SHA
 kubectl set image deployments/client-deployment client=laxtour/multi-client:$SHA
 kubectl set image deployments/worker-deployment worker=laxtour/multi-worker:$SHA
 
+
