@@ -6,7 +6,7 @@ docker push laxtor/multi-client:latest
 docker push laxtour/multi-server:latest
 docker push laxtour/multi-worker:latest
 
-docker push laxtor/multi-client:$SHA
+docker push laxtour/multi-client:$SHA
 docker push laxtour/multi-server:$SHA
 docker push laxtour/multi-worker:$SHA
 
