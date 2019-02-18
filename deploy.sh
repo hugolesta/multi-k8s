@@ -1,8 +1,8 @@
 docker build -t laxtour/multi-client:latest -t laxtour/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t laxtour/multi-server:latest -t laxtour/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t laxtoyr/multi-worker:latest -t laxtour/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t laxtour/multi-worker:latest -t laxtour/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
-docker push laxtor/multi-client:latest
+docker push laxtour/multi-client:latest
 docker push laxtour/multi-server:latest
 docker push laxtour/multi-worker:latest
 
